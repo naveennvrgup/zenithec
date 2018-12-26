@@ -1,0 +1,44 @@
+@import './colors.scss';
+@import './bootstrap.min.css';
+@import './animate.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'osans-r';
+}
+body{
+    // overflow-x: hidden;
+}
+h2{
+    font-family: 'oswald-b';
+    font-size: 3em;
+}
+p{
+    line-height: 30px;
+    font-size: 110%;
+}
+.bg-grey{
+    background: #f0f0f0;
+}
+#navbar,#home{
+    padding: 0;
+}
+.boxs{
+    box-sizing: border-box;
+}
+
+@media (max-width:$md){
+    h2{
+        font-size: 2em;
+    }
+}
+
+@import './navbar.scss';
+@import './home.scss';
+@import './services.scss';
+@import './working.scss';
+@import './custom.scss';
+@import './satisfaction.scss';
+@import './contact.scss';
+@import './footer.scss';

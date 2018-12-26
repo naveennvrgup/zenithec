@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Zeneithec | Startup Advancing Startups
+        link(rel="shortcut icon", href="./img/cicon.ico", type="image/x-icon")
+
+    body
+        //- loader
+        .pace
+            .pace-progress
+        link(rel="stylesheet", href="./scss/loader.scss")
+        script(src="./js/loader.js")
+
+        //- website 
+        link(rel="stylesheet", href="./scss/main.scss")
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.5.0/css/all.css",integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU",crossorigin="anonymous")
+        
+        #navbar.d-md-block.d-none
+            .container
+                .dflex
+                    .left
+                        img#logo(src="./img/logo.svg", alt="zenithec logo")
+                    .right
+                        span#a_home.active Home
+                        span#a_about About
+                        span#a_services Services
+                        span#a_working Works
+                        span#a_contact Contact
+        
+        #home
+            .row.w-100.h-100.m-0
+                .left.col-lg-5.p-1
+                    h3.my-0.d-md-none ZENITHEC
+                .right.col-lg-6.text-center
+                    img#sas(src="./img/SVG/sas2.svg", alt="")
+
+        #about.text-center.py-md-5.bg-grey
+            .pt-5
+            .container
+                h2.mt-5.wow.fadeInUp About 
+                    .display-md-4.d-inline-block ZE 
+                p.mt-5.
+                    An online presence has become an inclusive task in setting up of a business. Zenithec Technologies is a service based start-up with the motto of advancing the various start-ups having difficulty in starting their business online. 
+                    Moreover, we provide all the technical services according to the needs of our client. Thus, there's no need to outsource different requirements to different organizations.
+            .pt-5
+
+        #services.container.text-center.my-5
+            .pt-md-5
+            h2 Services offered 
+                i.fa.fa-arrow-down.text-success.wow.rubberBand(data-wow-iteration=2)
+
+            .services.row.mt-5.mx-2
+                .service.col-lg-4.col-md-6.border.p-md-2.p-1    
+                    img.mt-5.mb-3.w-50(src="./img/s1_android.svg", alt="")
+                    h3.text-white Android App Development
+                .service.col-lg-4.col-md-6.border.p-md-2.p-1    
+                    img.mt-5.mb-3.w-50(src="./img/s2_webdev.svg", alt="")
+                    h3.text-white Website Development
+                .service.col-lg-4.col-md-6.border.p-md-2.p-1    
+                    img.mt-5.mb-3.w-50(src="./img/s3_uiux.svg", alt="")
+                    h3.text-white UI/UX Designing 
+                .service.col-lg-4.col-md-6.border.p-md-2.p-1    
+                    img.mt-5.mb-3.w-50(src="./img/s4_marketing.svg", alt="")
+                    h3.text-white Digital Marketing
+                .service.col-lg-4.col-md-6.border.p-md-2.p-1    
+                    img.mt-5.mb-3.w-50(src="./img/s5_maintenance.svg", alt="")
+                    h3.text-white Maintanence
+                .service.col-lg-4.col-md-6.border.p-md-2.p-1    
+                    img.mt-5.mb-3.w-50(src="./img/s6_graphic.svg", alt="")
+                    h3.text-white Graphic Designing
+            .pt-md-5
+
+        #working.text-center.py-5.bg-grey
+            .pt-md-5
+            .container
+                h2 How it works
+                    span 
+                        i.fa.fa-cog.text-warning.wow.rotateIn
+                p.mt-5.text-center Working with zenithec is very easy. It starts from reaching out to us!!!
+
+                .row.mt-5.justify-content-center
+                    .col-md-6.col-lg-4
+                        //- i.fa.fa-calculator.fa-2x.golden_yellow
+                        img.w-25(src="./img/p1.svg", alt="")
+                        h3 Get an estimate
+                        p.mt-3.pb-5 All the requirements to be satisfied the project are laid out. Then you will get the estimate for the build. 
+                    .col-md-6.col-lg-4
+                        //- i.fa.fa-file-signature.fa-2x.golden_yellow
+                        img.w-25(src="./img/p2.svg", alt="")
+                        h3 Building the product
+                        p.mt-3.pb-5 At this phase we will start designing and development of the product. This includes regular showcasing of prototypes. 
+                    .col-md-6.col-lg-4
+                        //- i.fa.fa-clock.fa-2x.golden_yellow
+                        img.w-25(src="./img/p3.svg", alt="")
+                        h3 Settling the terms
+                        p.mt-3.pb-md-5 Once you are satisfied with product, we will publish it on the world wide web for the open world to see. 
+
+        #custom.py-5
+            .pt-md-5
+            .container
+                .row.align-items-center.m-0
+                    .col-md-6.container
+                        h2 Personalized Services For Every Client
+                            span 
+                                i.fa.fa-heart.text-danger.wow.heartBeat.slow(data-wow-iteration=3)
+                        p.mt-4 Here at Zenithec we understand that everybody has unique needs. So we plan out a personalized piece of software tailored for your requirements.
+                    .col-md-6.container
+                        img.w-100#custom_service_img(src="./img/custom.svg", alt="")
+            .pt-md-5
+
+        #satisfaction.text-center.py-5.bg-grey
+            .pt-md-5
+            .container
+                h2 Satisfaction Guaranteed!
+                .rating.mt-3
+                    i.my-4.fa.fa-2x.fa-star.wow.slow.fadeInUp
+                    i.my-4.fa.fa-2x.fa-star.wow.slow.fadeInDown
+                    i.my-4.fa.fa-2x.fa-star.wow.slow.fadeInUp
+                    i.my-4.fa.fa-2x.fa-star.wow.slow.fadeInDown
+                    i.my-4.fa.fa-2x.fa-star.wow.slow.fadeInUp
+                p.mt-3.mb-2 It's our hard work &amp; dedication to our clients that we gaurantee quality product.
+                p.mb-2 We bet you can't be wrong with us.
+                p.mb-2 Try Us, you'll be surprised!!!.
+                p.mb-2 - ZE
+            .py-md-5
+            .pt-md-5
+        
+
+        #contact
+            .row.m-0
+                .left.col-lg-6.p-md-5
+                    .row.justify-content-center.p-5
+                        .col-md-6
+                            h3 Get in touch
+                            p
+                                | +91 89628 33132 
+                                br
+                                | +91 75871 39736
+                                br
+                                | zenithec.ltd@gmail.com
+                            h3.mt-5 Open hours
+                            p  
+                                | 5pm - 10pm on weekdays
+                                br
+                                | 9am - 10pm on weekends
+                        .col-md-6
+                            h3.mt-5.mt-md-0 What we do here
+                            p
+                                | Android App Development
+                                br
+                                | Website Development
+                                br
+                                | UI/UX Designing
+                                br
+                                | Digital Marketing
+                                br
+                                | Graphic Designing
+                            h3.mt-5 Social media
+                            a(href="https://www.facebook.com/ZenithecTechnologies/")
+                                i.fab.fa-facebook-f.fa-2x.m-2
+                            a(href="https://www.linkedin.com/in/zenithec-limited-2b4981160")
+                                i.fab.fa-linkedin-in.fa-2x.m-2
+                                
+                .right.col-lg-6.py-5.px-2.p-md-5
+                    div.boxs
+                        h2.mb-5.text-center.text-md-left Lets have a chat!
+                    .row.m-0.justify-content-between
+                        .col-md-6.p-0
+                            input.mt-3.d-block.w-100.p-3#name(type="text", placeholder="Name").w45
+                        .col-md-6.p-0
+                            input.mt-3.d-block.w-100.ml-md-1.p-3#ph_no(type="text", placeholder="Phone no.").w45
+                    input.d-block.w-100.p-3.mt-3#email(type="email",placeholder="Email")
+                    textarea.d-block.w-100.p-3.mt-3#project(rows="3",placeholder="Short description of the project")
+                    .text-center.mt-3
+                        button.submit_btn.py-2.px-3.wow.zoomIn Submit
+        
+        #footer.p-2
+            .container
+                .d-flex.flex-wrap
+                    div Copyright &copy; 2018 |  
+                    div 
+                        b Zenithec Technologies
+                    div | All Rights Reserved
+
+        //- javascripte files 
+        script(src="./js/index.js")

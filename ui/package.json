@@ -1,0 +1,21 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cssnano": "^4.1.7",
+    "mongoose": "^5.3.16",
+    "pug": "^2.0.3",
+    "request": "^2.88.0",
+    "sass": "^1.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "parcel build ./src/* --public-url /static"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

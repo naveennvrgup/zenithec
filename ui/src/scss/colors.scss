@@ -1,0 +1,38 @@
+
+
+@font-face{
+    font-family: 'osans-r';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+@font-face{
+    font-family: 'osans-b';
+    src: url('../fonts/Open_Sans/OpenSans-Bold.ttf');
+}
+@font-face{
+    font-family: 'oswald-r';
+    src: url('../fonts/Oswald/Oswald-Regular.ttf');
+}
+@font-face{
+    font-family: 'oswald-b';
+    src: url('../fonts/Oswald/Oswald-Bold.ttf');
+}
+
+$dark_blue: #19242D;
+$medium_blue: #1F2F3A;
+$reg_blue: #353F47;
+
+$sdark_blue: $dark_blue;
+$sreg_brown: #783B38;
+$sgolden_yellow: #E0AA25;
+$slight_brown: #90664F;
+$sreg_red:#C13E33;
+$slight_grey:#676F75;
+
+$slight_red: #DA8B85;
+$green: yellowgreen;
+
+// z indexes
+
+$z_navbar:15;
+
+$md:768px;

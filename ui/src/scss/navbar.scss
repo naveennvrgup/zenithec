@@ -1,0 +1,47 @@
+#navbar{
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: $z_navbar;
+    box-shadow: 0px -10px 30px ;
+    .left{
+        height: inherit;
+    }
+    #logo{
+        height: 100%;
+    }
+    .dflex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        transition: height 0.3s ease;
+    }
+    .sm_nav{
+        height: 50px;
+    }
+    span{
+        padding: 0px 20px;
+        display: inline-block;
+        text-align: center;
+        font-family: 'oswald-r';
+        color: $slight_grey;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        align-self: center;
+        cursor: pointer;
+    }
+    .active{
+        font-family: 'oswald-b';
+        color: $sreg_red;
+    }
+}
+
+#mobile_navbar{
+    position: fixed;
+    right: 1em;
+    top: 1.5em;
+    color: white;
+    z-index: $z_navbar;
+    text-shadow: 0px 0px 30px grey;
+}
