@@ -14,7 +14,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True if config('LOCAL_DB', cast=bool) else False
 
-ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '.herokupp.com','zenithec.appspot.com','naveennvrgup.ml','167.99.255.190']
+ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '.herokupp.com','zenithec.appspot.com','naveennvrgup.ml','167.99.255.190','zenithec.tk']
 CORS_ORIGIN_ALLOW_ALL = True
 
 # Application definition

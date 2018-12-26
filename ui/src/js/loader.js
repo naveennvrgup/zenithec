@@ -41,4 +41,4 @@ loader = () => {
     }
 }
 
-// loader()
+loader()
