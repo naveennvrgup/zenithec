@@ -13,7 +13,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "parcel build ./src/* --public-url /static"
+    "build": "parcel build ./src/* --public-url /static",
+    "start": "parcel ./src/*"
   },
   "keywords": [],
   "author": "",
