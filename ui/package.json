@@ -14,7 +14,7 @@
   "devDependencies": {},
   "scripts": {
     "build": "parcel build ./src/* --public-url /static",
-    "start": "parcel ./src/*"
+    "start": "parcel ./src/index.pug --open"
   },
   "keywords": [],
   "author": "",
