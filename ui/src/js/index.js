@@ -95,6 +95,10 @@ submit_btn.addEventListener('click', (e) => {
             } else {
                 submit_btn.classList.add('submit_success')
                 submit_btn.innerHTML = 'see you soon!'
+                name.value=''
+                phone.value=''
+                email.value=''
+                project.value=''
             }
         })
         .catch(e => {
