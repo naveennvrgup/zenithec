@@ -561,6 +561,10 @@ submit_btn.addEventListener('click', function (e) {
     } else {
       submit_btn.classList.add('submit_success');
       submit_btn.innerHTML = 'see you soon!';
+      name.value = '';
+      phone.value = '';
+      email.value = '';
+      project.value = '';
     }
   }).catch(function (e) {
     submit_btn.innerHTML = 'try again!';
@@ -593,7 +597,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61393" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65020" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
