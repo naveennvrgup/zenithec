@@ -33,7 +33,8 @@ for (let j = 0; j < scroll_items.length; j++) {
     // desktop scroll into view
     scroll_anchors[j].addEventListener('click', e => {
         scroll_targets[j].scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth', 
+            block: "start"
         })
     })
 }

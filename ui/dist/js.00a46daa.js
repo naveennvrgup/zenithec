@@ -496,7 +496,8 @@ var _loop = function _loop(j) {
   // desktop scroll into view
   scroll_anchors[j].addEventListener('click', function (e) {
     scroll_targets[j].scrollIntoView({
-      behavior: 'smooth'
+      behavior: 'smooth',
+      block: "start"
     });
   });
 };
@@ -597,7 +598,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61564" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54048" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
