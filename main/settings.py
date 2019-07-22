@@ -73,14 +73,7 @@ sqllite = {
 }
 
 DATABASES = {
-    'default':{
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'zenithec',
-        'USER': 'amrita',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
+    'default': sqllite,
 }
 
 # Password validation
