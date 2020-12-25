@@ -17,3 +17,9 @@ of advancing the various start-ups having difficulty in starting their business 
 * Javascript
 * parcel.js - used to bundle the pug, scss and js into html, css and vanilla js.
 
+#### Screenshots
+
+<img src='pics/one.png' width=500>
+<img src='pics/two.png' width=500>
+<img src='pics/three.png' width=500>
+<img src='pics/four.png' width=500>
